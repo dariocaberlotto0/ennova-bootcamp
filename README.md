@@ -1,5 +1,5 @@
 # Ennova Bootcamp
-This repo contain all the works done in Ennova Bootcamp.
+This repo contain all the examples done in Ennova Bootcamp.
 
 ## Setup
 1. Install **Python 3.12+**. If your system's python is older, use `pyenv` / `pyenv-win` (or `uv` for a full, fast package and project manager).
