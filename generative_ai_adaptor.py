@@ -2,6 +2,7 @@ import os
 from dataclasses import dataclass
 import time
 
+# Load environment variables from .env file
 try:
     from dotenv import load_dotenv
     load_dotenv()
@@ -16,6 +17,7 @@ OPEN_API_KEY = os.getenv('OPEN_API_KEY')
 if not OPEN_API_KEY:
     print('⚠️ Set OPEN_API_KEY in your environment to run live calls.')
 
+# Decorator to time function execution
 def timed(func):
     def wrapper(*args, **kwargs):
         start = time.time()
@@ -26,6 +28,7 @@ def timed(func):
 
 import abc
 
+# Abstract base class for Generative AI clients
 class GenerativeAIClient(abc.ABC):
     
     @abc.abstractmethod
@@ -44,6 +47,7 @@ class GoogleGenAIClient(GenerativeAIClient):
     retries: int=3
     backoff: float=0.8
 
+    # Generate text using Google's generative AI API
     @timed
     def generate(self, prompt: str) -> str:
         """Call the chat completion API with basic retries and timing.
@@ -78,6 +82,7 @@ class OpenAIClient(GenerativeAIClient):
     retries: int=3
     backoff: float=0.8
     
+    # Generate text using OpenAI's chat completion API
     @timed
     def generate(self, prompt: str) -> str:
         """Call the chat completion API with basic retries and timing.
@@ -118,6 +123,7 @@ class Provider(Enum):
     GOOGLE = 'google'
     OPENAI = 'openai'
 
+# Factory to create GenerativeAIClient instances based on provider
 class GenerativeAIClientFactory:
     @staticmethod
     def create_client(provider: Provider) -> GenerativeAIClient:
