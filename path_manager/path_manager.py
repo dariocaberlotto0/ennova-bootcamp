@@ -1,4 +1,4 @@
-
+# Practical session to manage file paths using dataclasses and pathlib
 
 from pathlib import Path
 from dataclasses import dataclass
