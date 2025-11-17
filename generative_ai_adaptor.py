@@ -1,4 +1,6 @@
 import os
+from dataclasses import dataclass
+import time
 
 try:
     from dotenv import load_dotenv
@@ -14,6 +16,14 @@ OPEN_API_KEY = os.getenv('OPEN_API_KEY')
 if not OPEN_API_KEY:
     print('⚠️ Set OPEN_API_KEY in your environment to run live calls.')
 
+def timed(func):
+    def wrapper(*args, **kwargs):
+        start = time.time()
+        result = func(*args, **kwargs)
+        print(f"Execution: {time.time() - start:.2f}s")
+        return result
+    return wrapper
+
 import abc
 
 class GenerativeAIClient(abc.ABC):
@@ -25,15 +35,16 @@ class GenerativeAIClient(abc.ABC):
 from google import genai
 from google.genai.types import GenerateContentConfig
 
+@dataclass
 class GoogleGenAIClient(GenerativeAIClient):
 
-    def __init__(self, model: str='gemini-2.5-flash', temperature: float=0.7, max_tokens: int=200, retries: int=3, backoff: float=0.8):
-        self.model = model
-        self.temperature = temperature
-        self.max_tokens = max_tokens
-        self.retries = retries
-        self.backoff = backoff
+    model: str='gemini-2.5-flash'
+    temperature: float=0.7
+    max_tokens: int=2000
+    retries: int=3
+    backoff: float=0.8
 
+    @timed
     def generate(self, prompt: str) -> str:
         """Call the chat completion API with basic retries and timing.
         Returns the model's answer as plain text.
@@ -58,15 +69,16 @@ class GoogleGenAIClient(GenerativeAIClient):
     
 from openai import OpenAI
 
+@dataclass
 class OpenAIClient(GenerativeAIClient):
 
-    def __init__(self, model: str='gpt-4o-mini', temperature: float=0.7, max_tokens: int=200, retries: int=3, backoff: float=0.8):
-        self.model = model
-        self.temperature = temperature
-        self.max_tokens = max_tokens
-        self.retries = retries
-        self.backoff = backoff
+    model: str='gpt-4o-mini'
+    temperature: float=0.7
+    max_tokens: int=2000
+    retries: int=3
+    backoff: float=0.8
     
+    @timed
     def generate(self, prompt: str) -> str:
         """Call the chat completion API with basic retries and timing.
         Returns the model's answer as plain text.
@@ -121,9 +133,9 @@ def main():
     openAI_client = GenerativeAIClientFactory.create_client(Provider.OPENAI)
 
     response_google = google_client.generate("Hello, how are you?")
-    response_openai = openAI_client.generate("Hello, how are you?")
-
     print(f"Google Response: {response_google}\n")
+
+    response_openai = openAI_client.generate("Hello, how are you?")
     print(f"OpenAI Response: {response_openai}")
 
 if __name__ == "__main__":
