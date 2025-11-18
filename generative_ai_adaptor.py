@@ -2,21 +2,6 @@ import os
 from dataclasses import dataclass
 import time
 
-# Load environment variables from .env file
-try:
-    from dotenv import load_dotenv
-    load_dotenv()
-except Exception:
-    pass
-
-GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
-if not GOOGLE_API_KEY:
-    print('⚠️ Set GOOGLE_API_KEY in your environment to run live calls.')
-
-OPEN_API_KEY = os.getenv('OPEN_API_KEY')
-if not OPEN_API_KEY:
-    print('⚠️ Set OPEN_API_KEY in your environment to run live calls.')
-
 # Decorator to time function execution
 def timed(func):
     def wrapper(*args, **kwargs):
@@ -41,26 +26,28 @@ from google.genai.types import GenerateContentConfig
 @dataclass
 class GoogleGenAIClient(GenerativeAIClient):
 
+    api_key: str
     model: str='gemini-2.5-flash'
     temperature: float=0.7
     max_tokens: int=2000
     retries: int=3
     backoff: float=0.8
 
+    # Initialize Google GenAI client
+    def __post_init__(self):
+        if not self.api_key:
+            raise ValueError("OPEN_API_KEY environment variable not set")
+        
+        self.client = genai.Client(api_key=self.api_key)
+        self.config = GenerateContentConfig(temperature=self.temperature, max_output_tokens=self.max_tokens)
+
     # Generate text using Google's generative AI API
     @timed
     def generate(self, prompt: str) -> str:
-        """Call the chat completion API with basic retries and timing.
-        Returns the model's answer as plain text.
-        """
-
         if not isinstance(prompt, str):
             raise ValueError("Prompt should be a string")
 
-        client = genai.Client()
-        config = GenerateContentConfig(temperature=self.temperature, max_output_tokens=self.max_tokens)
-
-        response = client.models.generate_content(model=self.model, contents=prompt, config=config)
+        response = self.client.models.generate_content(model=self.model, contents=prompt, config=self.config)
         
         if response.candidates is None:
             raise Exception("No candidates")
@@ -76,24 +63,27 @@ from openai import OpenAI
 @dataclass
 class OpenAIClient(GenerativeAIClient):
 
+    api_key: str
     model: str='gpt-4o-mini'
     temperature: float=0.7
     max_tokens: int=2000
     retries: int=3
     backoff: float=0.8
+
+    # Initialize OpenAI client
+    def __post_init__(self):
+        if not self.api_key:
+            raise ValueError("OPEN_API_KEY environment variable not set")
+        
+        self.client = OpenAI(api_key=self.api_key)
     
     # Generate text using OpenAI's chat completion API
     @timed
     def generate(self, prompt: str) -> str:
-        """Call the chat completion API with basic retries and timing.
-        Returns the model's answer as plain text.
-        """
-
         if not isinstance(prompt, str):
             raise ValueError("Prompt should be a string")
         
-        client = OpenAI(api_key=OPEN_API_KEY)
-        response = client.chat.completions.create(
+        response = self.client.chat.completions.create(
             model=self.model,
             messages=[
                 {"role": "user", "content": prompt}
@@ -126,17 +116,33 @@ class Provider(Enum):
 # Factory to create GenerativeAIClient instances based on provider
 class GenerativeAIClientFactory:
     @staticmethod
-    def create_client(provider: Provider) -> GenerativeAIClient:
+    def create_client(provider: Provider, api_key: str) -> GenerativeAIClient:
         if provider == Provider.GOOGLE:
-            return GoogleGenAIClient()
+            return GoogleGenAIClient(api_key=api_key)
         elif provider == Provider.OPENAI:
-            return OpenAIClient()
+            return OpenAIClient(api_key=api_key)
         else:
             raise ValueError(f"Unknown provider: {provider}")
 
 def main(): 
-    google_client = GenerativeAIClientFactory.create_client(Provider.GOOGLE)
-    openAI_client = GenerativeAIClientFactory.create_client(Provider.OPENAI)
+    # Load environment variables from .env file
+    try:
+        from dotenv import load_dotenv
+        load_dotenv()
+    except Exception:
+        pass
+
+    GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
+    if not GOOGLE_API_KEY:
+        print('⚠️ Set GOOGLE_API_KEY in your environment to run live calls.')
+    else:
+        google_client = GenerativeAIClientFactory.create_client(Provider.GOOGLE, GOOGLE_API_KEY)
+
+    OPEN_API_KEY = os.getenv('OPEN_API_KEY')
+    if not OPEN_API_KEY:
+        print('⚠️ Set OPEN_API_KEY in your environment to run live calls.')
+    else:
+        openAI_client = GenerativeAIClientFactory.create_client(Provider.OPENAI, OPEN_API_KEY)
 
     response_google = google_client.generate("Hello, how are you?")
     print(f"Google Response: {response_google}\n")
