@@ -13,7 +13,7 @@ This repo contain all the examples done in Ennova Bootcamp.
    ```
 
 ## List of files
-1. generative_ai_adaptor: practical session to explore OpenAI and Google APIs
+1. generative_ai: practical session to explore OpenAI and Google APIs
 2. text_cleaner: practical session to apply clean-code patterns in small utilities.
 3. path_manager: practical session to manage file paths using dataclasses and pathlib
 4. cli: practical session to learn how to write a command-line utility that "normalizes" its (string) input
