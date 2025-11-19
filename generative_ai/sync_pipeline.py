@@ -29,7 +29,7 @@ class SyncPipeline:
         )
         print(f"Google Response: {response.text}\n")
         self.log_event(sync_timeline_events, task_id, "END", initial_timestamp)
-        return f"LLM result: {prompt}"
+        return f"Google result: {prompt}"
 
     def sync_openai_call(self, prompt, client, initial_timestamp, sync_timeline_events):
         task_id = f"openai_{prompt[:10]}"
@@ -42,9 +42,9 @@ class SyncPipeline:
                     "content": "Hello, how are you?."
             }]
         )
-        print(f"OpenAI Response: {response.text}\n")
+        print(f"OpenAI Response: {response.choices[0].message.content}\n")
         self.log_event(sync_timeline_events, task_id, "END", initial_timestamp)
-        return f"LLM result: {prompt}"
+        return f"OpenAI result: {prompt}"
 
     def sync_http_call(self, endpoint, initial_timestamp, sync_timeline_events):
         task_id = f"http_{endpoint.replace('/', '')}"
@@ -61,11 +61,6 @@ class SyncPipeline:
         google_result = self.sync_google_call("What's the user intent?", google_client, initial_timestamp, sync_timeline_events)
         # Step 2: Log the result and wait for logging to complete
         self.sync_db_operation("llm_result", initial_timestamp, sync_timeline_events)
-        
-        # Step 1: Make LLM call and wait for it to complete
-        # openai_result = self.sync_openai_call("What's the user intent?", openai_client, initial_timestamp, sync_timeline_events)
-        # Step 2: Log the result and wait for logging to complete
-        # self.sync_db_operation("llm_result", initial_timestamp, sync_timeline_events)
 
         # Step 3: Make first HTTP call and wait for it to complete
         http1 = self.sync_http_call("/api/data", initial_timestamp, sync_timeline_events)
@@ -76,16 +71,11 @@ class SyncPipeline:
         http2 = self.sync_http_call("/api/details", initial_timestamp, sync_timeline_events)
         # Step 6: Log the HTTP result and wait for logging to complete
         self.sync_db_operation("http2", initial_timestamp, sync_timeline_events)
-
-        # Step 7: Make final LLM call and wait for it to complete
-        google_summary = self.sync_google_call("Summarize everything", google_client, initial_timestamp, sync_timeline_events)
-        # Step 8: Log the summary and wait for logging to complete
-        self.sync_db_operation("summary", initial_timestamp, sync_timeline_events)
         
         # Step 7: Make final LLM call and wait for it to complete
-        # openai_summary = self.sync_openai_call("Summarize everything", openai_client, initial_timestamp, sync_timeline_events)
+        openai_summary = self.sync_openai_call("Summarize everything", openai_client, initial_timestamp, sync_timeline_events)
         # Step 8: Log the summary and wait for logging to complete
-        # self.sync_db_operation("summary", initial_timestamp, sync_timeline_events)
+        self.sync_db_operation("summary", initial_timestamp, sync_timeline_events)
 
         self.log_event(sync_timeline_events, "main_pipeline", "END_PIPELINE", initial_timestamp)
 

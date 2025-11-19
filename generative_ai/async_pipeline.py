@@ -32,7 +32,7 @@ class AsyncPipeline:
         )
         print(f"Google Response: {response.text}\n")
         self.log_event(async_timeline_events, task_id, "END", initial_timestamp) # just logging time
-        return f"LLM result: {prompt}"
+        return f"Google result: {prompt}"
 
     async def async_openai_call(self, prompt, client, initial_timestamp, async_timeline_events):
         task_id = f"openai_{prompt[:10]}"
@@ -44,9 +44,9 @@ class AsyncPipeline:
                     {"role": "user", "content": "Hello, how are you?."}
                 ]
         )
-        print(f"OpenAI Response: {response.text}\n")
+        print(f"OpenAI Response: {response.choices[0].message.content}\n")
         self.log_event(async_timeline_events, task_id, "END", initial_timestamp) # just logging time
-        return f"LLM result: {prompt}"
+        return f"OpenAI result: {prompt}"
 
     async def async_http_call(self, endpoint, initial_timestamp, async_timeline_events):
         task_id = f"http_{endpoint.replace('/', '')}"
@@ -60,14 +60,9 @@ class AsyncPipeline:
         self.log_event(async_timeline_events, "main_pipeline", "START_PIPELINE", initial_timestamp)
 
         # DEPENDENT TASK: We need the LLM result before proceeding
-        google_result = await self.async_google_call("What's the user intent?", google_client, initial_timestamp, async_timeline_events)
+        google_result = await self.async_google_call("Google", google_client, initial_timestamp, async_timeline_events)
         # BACKGROUND TASK: Log the result to the database, but don't wait for it
         tasks.append(asyncio.create_task(self.async_db_operation("google_result", initial_timestamp, async_timeline_events)))
-
-        # DEPENDENT TASK: We need the LLM result before proceeding
-        # openai_result = await self.async_openai_call("What's the user intent?", openai_client, initial_timestamp, async_timeline_events)
-        # BACKGROUND TASK: Log the result to the database, but don't wait for it
-        # tasks.append(asyncio.create_task(self.async_db_operation("openai_result", initial_timestamp, async_timeline_events)))
 
         # DEPENDENT TASK: We need this HTTP result for our business logic
         http1 = await self.async_http_call("/api/data", initial_timestamp, async_timeline_events)
@@ -78,16 +73,11 @@ class AsyncPipeline:
         http2 = await self.async_http_call("/api/details", initial_timestamp, async_timeline_events)
         # BACKGROUND TASK: Another non-blocking logging operation
         tasks.append(asyncio.create_task(self.async_db_operation("http2", initial_timestamp, async_timeline_events)))
-
-        # DEPENDENT TASK: Generate a summary using the LLM with collected data
-        summary_google = await self.async_google_call("Summarize everything", google_client, initial_timestamp, async_timeline_events)
-        # BACKGROUND TASK: Log the summary generation
-        tasks.append(asyncio.create_task(self.async_db_operation("summary_google", initial_timestamp, async_timeline_events)))
         
         # DEPENDENT TASK: Generate a summary using the LLM with collected data
-        # summary_openai = await self.async_openai_call("Summarize everything", openai_client, initial_timestamp, async_timeline_events)
+        summary_openai = await self.async_openai_call("OpenAI summarize everything", openai_client, initial_timestamp, async_timeline_events)
         # BACKGROUND TASK: Log the summary generation
-        # tasks.append(asyncio.create_task(self.async_db_operation("summary_openai", initial_timestamp, async_timeline_events)))
+        tasks.append(asyncio.create_task(self.async_db_operation("summary_openai", initial_timestamp, async_timeline_events)))
 
         self.log_event(async_timeline_events, "main_pipeline", "END_PIPELINE", initial_timestamp)
 

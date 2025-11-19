@@ -22,8 +22,8 @@ async def main():
     if not OPEN_API_KEY:
         print('⚠️ Set OPEN_API_KEY in your environment to run live calls.')
     else:
-        openAI_client = GenerativeAIClientFactory.create_client(
-            Provider.OPENAI_ASYNC, OPEN_API_KEY)
+        async_openAI_client = openai.AsyncOpenAI(api_key=OPEN_API_KEY)
+        openAI_client = openai.OpenAI(api_key=OPEN_API_KEY)
 
     # ========================== Async Pipeline ====================================
 
@@ -32,7 +32,7 @@ async def main():
     initial_timestamp = time.monotonic() 
     print("\n--------------- Running Async Pipeline ---------------\n")
     async_timeline_events = await async_pipeline.run_async_pipeline(
-            initial_timestamp, google_client, openAI_client)
+            initial_timestamp, google_client, async_openAI_client)
 
     # ========================== Sync Pipeline =====================================
 
@@ -40,8 +40,9 @@ async def main():
     # start time measurement
     initial_timestamp = time.monotonic()
     # passing to sync openai client
-    openAI_client = GenerativeAIClientFactory.create_client(
-        Provider.OPENAI, OPEN_API_KEY)
+    if not OPEN_API_KEY:
+        raise ValueError("OPEN_API_KEY is required for synchronous OpenAI client.")
+    openAI_client = openai.OpenAI(api_key=OPEN_API_KEY)
     print("\n--------------- Running Sync Pipeline ---------------\n")
     sync_timeline_events = sync_pipeline.run_sync_pipeline(
         initial_timestamp, google_client, openAI_client)
