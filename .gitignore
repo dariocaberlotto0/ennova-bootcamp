@@ -3,3 +3,6 @@
 path_manager\workspace*
 __pycache__/
 *.pyc
+build/
+dist/
+ennova_bootcamp_examples.egg-info/

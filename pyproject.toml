@@ -1,0 +1,9 @@
+[project]
+name = "ennova_bootcamp_examples"
+version = "0.1.0"
+description = "Ennova Bootcamp Examples"
+authors = [{"name" = "Dario Caberlotto", "email" = "dario.caber@gmail.com"}]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
