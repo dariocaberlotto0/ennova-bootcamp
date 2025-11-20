@@ -13,17 +13,19 @@ from plot_generating import plot_gantt_chart
 # ==================================================================================
 
 async def main():
-    GOOGLE_API_KEY, OPEN_API_KEY = Environment.load()
+    GOOGLE_API_KEY, OPENAI_API_KEY = Environment.load()
     if not GOOGLE_API_KEY:
         print('⚠️ Set GOOGLE_API_KEY in your environment to run live calls.')
     else:
+        print('✅ GOOGLE_API_KEY is set.')
         google_client = genai.Client(api_key=GOOGLE_API_KEY)
 
-    if not OPEN_API_KEY:
-        print('⚠️ Set OPEN_API_KEY in your environment to run live calls.')
+    if not OPENAI_API_KEY:
+        print('⚠️ Set OPENAI_API_KEY in your environment to run live calls.')
     else:
-        async_openAI_client = openai.AsyncOpenAI(api_key=OPEN_API_KEY)
-        openAI_client = openai.OpenAI(api_key=OPEN_API_KEY)
+        print('✅ OPENAI_API_KEY is set.')
+        async_openAI_client = openai.AsyncOpenAI(api_key=OPENAI_API_KEY)
+        openAI_client = openai.OpenAI(api_key=OPENAI_API_KEY)
 
     # ========================== Async Pipeline ====================================
 
@@ -40,9 +42,9 @@ async def main():
     # start time measurement
     initial_timestamp = time.monotonic()
     # passing to sync openai client
-    if not OPEN_API_KEY:
-        raise ValueError("OPEN_API_KEY is required for synchronous OpenAI client.")
-    openAI_client = openai.OpenAI(api_key=OPEN_API_KEY)
+    if not OPENAI_API_KEY:
+        raise ValueError("OPENAI_API_KEY is required for synchronous OpenAI client.")
+    openAI_client = openai.OpenAI(api_key=OPENAI_API_KEY)
     print("\n--------------- Running Sync Pipeline ---------------\n")
     sync_timeline_events = sync_pipeline.run_sync_pipeline(
         initial_timestamp, google_client, openAI_client)
@@ -55,11 +57,12 @@ async def main():
 # ==================================================================================
 
 """
+# TODO: add provider choice and prompt from terminal
 async def main(): 
     openai_async = True
     genai_async = True
 
-    GOOGLE_API_KEY, OPEN_API_KEY = Environment.load()
+    GOOGLE_API_KEY, OPENAI_API_KEY = Environment.load()
     
     if not GOOGLE_API_KEY:
         print('⚠️ Set GOOGLE_API_KEY in your environment to run live calls.')
@@ -67,15 +70,15 @@ async def main():
         google_client = GenerativeAIClientFactory.create_client(
         Provider.GOOGLE, GOOGLE_API_KEY)
 
-    if not OPEN_API_KEY:
-        print('⚠️ Set OPEN_API_KEY in your environment to run live calls.')
+    if not OPENAI_API_KEY:
+        print('⚠️ Set OPENAI_API_KEY in your environment to run live calls.')
     else:
         if openai_async:
             openAI_client = GenerativeAIClientFactory.create_client(
-            Provider.OPENAI_ASYNC, OPEN_API_KEY)
+            Provider.OPENAI_ASYNC, OPENAI_API_KEY)
         else:
             openAI_client = GenerativeAIClientFactory.create_client(
-            Provider.OPENAI, OPEN_API_KEY)
+            Provider.OPENAI, OPENAI_API_KEY)
 
     # ================================== GoogleAI ==================================
 

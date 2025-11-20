@@ -11,6 +11,6 @@ class Environment:
             pass
 
         GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
-        OPEN_API_KEY = os.getenv('OPEN_API_KEY')
+        OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
-        return GOOGLE_API_KEY, OPEN_API_KEY
+        return GOOGLE_API_KEY, OPENAI_API_KEY
