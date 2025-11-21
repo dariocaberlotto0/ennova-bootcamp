@@ -41,3 +41,33 @@ def history():
         lines = deque(file, maxlen=10)
         lines.reverse()
         return lines
+
+# Returns the env variables
+@app.get('/config')
+def config():
+    import os
+    db = os.getenv('DB_PATH')
+    if not db:
+        logging.warning("No database found.")
+    log_level = os.getenv('LOG_LEVEL')
+    if not log_level:
+        logging.warning("No log_level found.")
+    google_key = os.getenv('GOOGLE_API_KEY')
+    if not google_key:
+        logging.warning("No google_key found.")
+    openai_key = os.getenv('OPENAI_API_KEY')
+    if not openai_key:
+        logging.warning("No openai_key found.")
+    watsonx_key = os.getenv('IWATSON_API_KEY')
+    if not watsonx_key:
+        logging.warning("No watsonx_key found.")
+
+    return {
+        "app_name": "API Prompt Logger",
+        "db_path": db,
+        "google_key_present": True if google_key else False,
+        "openai_key_present": True if openai_key else False,
+        "watsonx_key_present": True if watsonx_key else False
+    }
+
+
