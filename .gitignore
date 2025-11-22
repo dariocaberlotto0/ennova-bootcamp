@@ -6,5 +6,4 @@ __pycache__/
 build/
 dist/
 ennova_bootcamp_examples.egg-info/
-src/student_prompt_logger/service.log
-src/student_prompt_logger/promptlog.db
+src/student_prompt_logger/promptlog.db-journal
