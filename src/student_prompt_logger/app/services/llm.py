@@ -6,13 +6,15 @@ from google.genai.types import GenerateContentConfig
 
 from openai import OpenAI, AsyncOpenAI
 
+from models.schemas import LLMResponse
+
 class LLMClient(ABC):
     @abstractmethod
-    def generate(self, prompt: str, **params) -> dict: ...
+    def generate(self, prompt: str, **params) -> LLMResponse: ...
 
 class MockLLM(LLMClient):
-    def generate(self, prompt: str, **params) -> dict:
-        return {"text": f"[MOCK OUTPUT]\n{prompt[:200]} ...", "provider": "mock"}
+    def generate(self, prompt: str, **params) -> LLMResponse:
+        return LLMResponse(text="[MOCK OUTPUT]", model_info="mock")
 
 @dataclass
 class OpenAILLM(LLMClient):
@@ -33,7 +35,7 @@ class OpenAILLM(LLMClient):
         
 
     # Generate text using OpenAI's chat completion API
-    def generate(self, prompt: str, **params) -> dict:
+    def generate(self, prompt: str, **params) -> LLMResponse:
         if not isinstance(prompt, str):
             raise ValueError("Prompt should be a string")
         
@@ -58,7 +60,7 @@ class OpenAILLM(LLMClient):
             reason = message.refusal
             raise ValueError("No content in response: " + str(reason))
         
-        return {"text": message.content, "model_info": self.model}
+        return LLMResponse(text=message.content, model_info=self.model)
 
 @dataclass
 class OpenAILLMAsync(LLMClient):
@@ -77,7 +79,7 @@ class OpenAILLMAsync(LLMClient):
         
         self.client = AsyncOpenAI(api_key=self.api_key)        
 
-    async def generate(self, prompt: str, **params) -> dict:
+    async def generate(self, prompt: str, **params) -> LLMResponse:
         if not isinstance(prompt, str):
             raise ValueError("Prompt should be a string")
         response = await self.client.chat.completions.create(
@@ -101,7 +103,7 @@ class OpenAILLMAsync(LLMClient):
             reason = message.refusal
             raise ValueError("No content in response: " + str(reason))
         
-        return {"text": message.content, "model_info": self.model}
+        return LLMResponse(text=message.content, model_info=self.model)
 
 @dataclass
 class GeminiLLM(LLMClient):
@@ -121,17 +123,17 @@ class GeminiLLM(LLMClient):
         self.client = genai.Client(api_key=self.api_key)
         self.config = GenerateContentConfig(temperature=self.temperature, max_output_tokens=self.max_tokens)
 
-    def response_check(self, response):
+    def response_check(self, response) -> LLMResponse:
         if response.candidates is None:
             raise Exception("No candidates")
         candidate = response.candidates[0]
         if str(candidate.finish_reason) == "FinishReason.STOP":
             if not response or not response.text:
                 raise Exception("No valid response from API")
-            return {"text": response.text, "model_info": self.model}
-        return {"text": str(candidate.finish_reason), "model_info": self.model}
+            return LLMResponse(text=response.text, model_info=self.model)
+        return LLMResponse(text=str(candidate.finish_reason), model_info=self.model)
 
-    async def generate_async(self, prompt: str, **params) -> dict:
+    async def generate_async(self, prompt: str, **params) -> LLMResponse:
         if not isinstance(prompt, str):
             raise ValueError("Prompt should be a string")
 
@@ -139,7 +141,7 @@ class GeminiLLM(LLMClient):
         return self.response_check(response)
 
     # Generate text using Google's generative AI API
-    def generate(self, prompt: str) -> dict:
+    def generate(self, prompt: str) -> LLMResponse:
         if not isinstance(prompt, str):
             raise ValueError("Prompt should be a string")
 

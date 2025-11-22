@@ -11,3 +11,4 @@ toml
 pyyaml
 fastapi
 uvicorn
+streamlit

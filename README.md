@@ -22,3 +22,5 @@ This repo contain all the examples done in Ennova Bootcamp.
 7. config: example of different type of files to config a project. Also an example of logging
 8. andres_separate_clients: example of separate classes and logging made by Andres
 9. inheritance: examples of inheritance between more classes
+
+TODO: run instructions for all examples

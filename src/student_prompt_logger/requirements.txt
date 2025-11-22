@@ -1,6 +1,0 @@
-fastapi
-uvicorn
-requests
-dotenv
-google.genai
-openai

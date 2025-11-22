@@ -1,0 +1,1606 @@
+2025-11-22 14:50:20 [INFO] - uvicorn.error: Will watch for changes in these directories: ['C:\\Users\\candidato\\Desktop\\dariocaberlotto\\ennova-bootcamp\\src\\student_prompt_logger']
+2025-11-22 14:50:20 [INFO] - uvicorn.error: Uvicorn running on http://0.0.0.0:8081 (Press CTRL+C to quit)
+2025-11-22 14:50:20 [INFO] - uvicorn.error: Started reloader process [12148] using StatReload
+2025-11-22 14:50:21 [INFO] - root: Database set.
+2025-11-22 14:50:21 [INFO] - root: log_level set.
+2025-11-22 14:50:21 [INFO] - root: google_key set.
+2025-11-22 14:50:21 [INFO] - root: openai_key set.
+2025-11-22 14:50:21 [INFO] - root: watsonx_key set.
+2025-11-22 14:50:21 [INFO] - uvicorn.error: Started server process [18256]
+2025-11-22 14:50:21 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 14:50:21 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 14:50:35 [INFO] - uvicorn.access: 127.0.0.1:60588 - "GET /config HTTP/1.1" 200
+2025-11-22 14:51:04 [WARNING] - uvicorn.error: StatReload detected changes in 'app\run.py'. Reloading...
+2025-11-22 14:51:04 [INFO] - uvicorn.error: Shutting down
+2025-11-22 14:51:05 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 14:51:05 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 14:51:05 [INFO] - uvicorn.error: Finished server process [18256]
+2025-11-22 14:51:05 [INFO] - root: Database set.
+2025-11-22 14:51:05 [INFO] - root: log_level set.
+2025-11-22 14:51:05 [INFO] - root: google_key set.
+2025-11-22 14:51:05 [INFO] - root: openai_key set.
+2025-11-22 14:51:05 [INFO] - root: watsonx_key set.
+2025-11-22 14:51:06 [INFO] - uvicorn.error: Started server process [2556]
+2025-11-22 14:51:06 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 14:51:06 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 14:52:15 [WARNING] - uvicorn.error: StatReload detected changes in 'app\main.py'. Reloading...
+2025-11-22 14:52:15 [INFO] - uvicorn.error: Shutting down
+2025-11-22 14:52:16 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 14:52:16 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 14:52:16 [INFO] - uvicorn.error: Finished server process [2556]
+2025-11-22 14:52:17 [INFO] - uvicorn.error: Started server process [4676]
+2025-11-22 14:52:17 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 14:52:17 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 14:52:34 [INFO] - uvicorn.error: Shutting down
+2025-11-22 14:52:35 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 14:52:35 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 14:52:35 [INFO] - uvicorn.error: Finished server process [4676]
+2025-11-22 14:52:35 [INFO] - uvicorn.error: Stopping reloader process [12148]
+2025-11-22 15:02:57 [INFO] - uvicorn.error: Will watch for changes in these directories: ['C:\\Users\\candidato\\Desktop\\dariocaberlotto\\ennova-bootcamp\\src\\student_prompt_logger']
+2025-11-22 15:02:57 [INFO] - uvicorn.error: Uvicorn running on http://0.0.0.0:8081 (Press CTRL+C to quit)
+2025-11-22 15:02:57 [INFO] - uvicorn.error: Started reloader process [15936] using StatReload
+2025-11-22 15:02:58 [INFO] - uvicorn.error: Started server process [15368]
+2025-11-22 15:02:58 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 15:02:58 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 15:03:20 [INFO] - uvicorn.access: 127.0.0.1:50115 - "GET /docs HTTP/1.1" 200
+2025-11-22 15:03:20 [INFO] - uvicorn.access: 127.0.0.1:50115 - "GET /openapi.json HTTP/1.1" 200
+2025-11-22 15:03:33 [INFO] - root: Fetched last 10 logs.
+2025-11-22 15:03:33 [INFO] - uvicorn.access: 127.0.0.1:50116 - "GET /history HTTP/1.1" 200
+2025-11-22 15:04:24 [WARNING] - uvicorn.error: StatReload detected changes in 'app\main.py'. Reloading...
+2025-11-22 15:04:24 [INFO] - uvicorn.error: Shutting down
+2025-11-22 15:04:24 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 15:04:24 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 15:04:24 [INFO] - uvicorn.error: Finished server process [15368]
+2025-11-22 15:04:26 [INFO] - uvicorn.error: Started server process [19620]
+2025-11-22 15:04:26 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 15:04:26 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 15:04:30 [INFO] - root: Fetched last 10 logs.
+2025-11-22 15:04:30 [INFO] - uvicorn.access: 127.0.0.1:50139 - "GET /history HTTP/1.1" 200
+2025-11-22 15:06:07 [WARNING] - uvicorn.error: StatReload detected changes in 'app\main.py'. Reloading...
+2025-11-22 15:06:07 [INFO] - uvicorn.error: Shutting down
+2025-11-22 15:06:07 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 15:06:07 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 15:06:07 [INFO] - uvicorn.error: Finished server process [19620]
+2025-11-22 15:06:09 [INFO] - uvicorn.error: Started server process [18916]
+2025-11-22 15:06:09 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 15:06:09 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 15:06:19 [INFO] - root: Fetched last 10 logs.
+2025-11-22 15:06:19 [INFO] - uvicorn.access: 127.0.0.1:50195 - "GET /history HTTP/1.1" 200
+2025-11-22 15:06:59 [WARNING] - uvicorn.error: StatReload detected changes in 'app\main.py'. Reloading...
+2025-11-22 15:06:59 [INFO] - uvicorn.error: Shutting down
+2025-11-22 15:06:59 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 15:06:59 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 15:07:00 [INFO] - uvicorn.error: Finished server process [18916]
+2025-11-22 15:07:01 [INFO] - uvicorn.error: Started server process [5952]
+2025-11-22 15:07:01 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 15:07:01 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 15:07:02 [INFO] - uvicorn.access: 127.0.0.1:50208 - "GET /history HTTP/1.1" 500
+2025-11-22 15:07:02 [ERROR] - uvicorn.error: Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\applications.py", line 1134, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 125, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 111, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 391, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 292, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\src\student_prompt_logger\app\main.py", line 64, in history
+    logs = cur.execute("SELECT log_date, log_type, log_logger, log_message FROM logs ORDER BY id DESC LIMIT 10")
+sqlite3.OperationalError: no such column: log_date
+2025-11-22 15:09:41 [WARNING] - uvicorn.error: StatReload detected changes in 'app\main.py'. Reloading...
+2025-11-22 15:09:41 [INFO] - uvicorn.error: Shutting down
+2025-11-22 15:09:41 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 15:09:41 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 15:09:41 [INFO] - uvicorn.error: Finished server process [5952]
+2025-11-22 15:09:43 [INFO] - uvicorn.error: Started server process [6848]
+2025-11-22 15:09:43 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 15:09:43 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 15:09:53 [INFO] - uvicorn.access: 127.0.0.1:50258 - "GET /history HTTP/1.1" 422
+2025-11-22 15:10:08 [INFO] - uvicorn.access: 127.0.0.1:50259 - "GET /docs HTTP/1.1" 200
+2025-11-22 15:10:08 [INFO] - uvicorn.access: 127.0.0.1:50259 - "GET /openapi.json HTTP/1.1" 200
+2025-11-22 15:10:16 [INFO] - uvicorn.access: 127.0.0.1:50273 - "GET /history?limit=15 HTTP/1.1" 500
+2025-11-22 15:10:16 [ERROR] - uvicorn.error: Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\applications.py", line 1134, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 125, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 111, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 391, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 292, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\src\student_prompt_logger\app\main.py", line 66, in history
+    logs = cur.execute("SELECT log_date, log_type, log_logger, log_message FROM logs ORDER BY id DESC LIMIT {limit}")
+sqlite3.OperationalError: unrecognized token: "{"
+2025-11-22 15:10:46 [WARNING] - uvicorn.error: StatReload detected changes in 'app\main.py'. Reloading...
+2025-11-22 15:10:46 [INFO] - uvicorn.error: Shutting down
+2025-11-22 15:10:46 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 15:10:46 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 15:10:46 [INFO] - uvicorn.error: Finished server process [6848]
+2025-11-22 15:10:47 [INFO] - uvicorn.error: Started server process [11452]
+2025-11-22 15:10:47 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 15:10:47 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 15:10:53 [INFO] - uvicorn.access: 127.0.0.1:50296 - "GET /docs HTTP/1.1" 200
+2025-11-22 15:10:53 [INFO] - uvicorn.access: 127.0.0.1:50296 - "GET /openapi.json HTTP/1.1" 200
+2025-11-22 15:11:00 [INFO] - uvicorn.access: 127.0.0.1:50297 - "GET /history?limit=15 HTTP/1.1" 500
+2025-11-22 15:11:00 [ERROR] - uvicorn.error: Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\applications.py", line 1134, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 125, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 111, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 391, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 292, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\src\student_prompt_logger\app\main.py", line 66, in history
+    logs = cur.execute(f"SELECT log_date, log_type, log_logger, log_message FROM logs ORDER BY id DESC LIMIT {limit}")
+sqlite3.OperationalError: no such column: log_date
+2025-11-22 15:11:15 [WARNING] - uvicorn.error: StatReload detected changes in 'app\main.py'. Reloading...
+2025-11-22 15:11:15 [INFO] - uvicorn.error: Shutting down
+2025-11-22 15:11:15 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 15:11:15 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 15:11:15 [INFO] - uvicorn.error: Finished server process [11452]
+2025-11-22 15:11:17 [INFO] - uvicorn.error: Started server process [3688]
+2025-11-22 15:11:17 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 15:11:17 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 15:11:18 [INFO] - root: Fetched last 15 logs.
+2025-11-22 15:11:18 [INFO] - uvicorn.access: 127.0.0.1:50307 - "GET /history?limit=15 HTTP/1.1" 200
+2025-11-22 15:12:48 [WARNING] - uvicorn.error: StatReload detected changes in 'app\main.py'. Reloading...
+2025-11-22 15:12:48 [INFO] - uvicorn.error: Shutting down
+2025-11-22 15:12:48 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 15:12:48 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 15:12:48 [INFO] - uvicorn.error: Finished server process [3688]
+2025-11-22 15:12:49 [INFO] - uvicorn.error: Started server process [15860]
+2025-11-22 15:12:49 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 15:12:49 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 15:12:52 [INFO] - root: Fetched last 15 logs.
+2025-11-22 15:12:52 [INFO] - uvicorn.access: 127.0.0.1:50339 - "GET /history?limit=15 HTTP/1.1" 200
+2025-11-22 15:15:25 [WARNING] - uvicorn.error: StatReload detected changes in 'app\main.py'. Reloading...
+2025-11-22 15:15:25 [INFO] - uvicorn.error: Shutting down
+2025-11-22 15:15:26 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 15:15:26 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 15:15:26 [INFO] - uvicorn.error: Finished server process [15860]
+2025-11-22 15:15:27 [INFO] - uvicorn.error: Started server process [19828]
+2025-11-22 15:15:27 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 15:15:27 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 15:15:29 [INFO] - root: Fetched last 15 logs.
+2025-11-22 15:15:29 [INFO] - uvicorn.access: 127.0.0.1:50377 - "GET /history?limit=15 HTTP/1.1" 200
+2025-11-22 15:18:05 [WARNING] - uvicorn.error: StatReload detected changes in 'app\main.py'. Reloading...
+2025-11-22 15:18:05 [INFO] - uvicorn.error: Shutting down
+2025-11-22 15:18:05 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 15:18:05 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 15:18:05 [INFO] - uvicorn.error: Finished server process [19828]
+2025-11-22 15:18:06 [INFO] - uvicorn.error: Started server process [15136]
+2025-11-22 15:18:06 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 15:18:06 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 15:18:52 [WARNING] - uvicorn.error: StatReload detected changes in 'app\main.py'. Reloading...
+2025-11-22 15:18:52 [INFO] - uvicorn.error: Shutting down
+2025-11-22 15:18:52 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 15:18:52 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 15:18:52 [INFO] - uvicorn.error: Finished server process [15136]
+2025-11-22 15:18:54 [INFO] - uvicorn.error: Started server process [15132]
+2025-11-22 15:18:54 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 15:18:54 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 15:18:57 [INFO] - root: Fetched last 15 logs.
+2025-11-22 15:18:57 [INFO] - uvicorn.access: 127.0.0.1:50441 - "GET /history?limit=15 HTTP/1.1" 200
+2025-11-22 15:19:05 [WARNING] - uvicorn.error: StatReload detected changes in 'app\main.py'. Reloading...
+2025-11-22 15:19:05 [INFO] - uvicorn.error: Shutting down
+2025-11-22 15:19:05 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 15:19:05 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 15:19:05 [INFO] - uvicorn.error: Finished server process [15132]
+2025-11-22 15:19:06 [INFO] - uvicorn.error: Started server process [7004]
+2025-11-22 15:19:06 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 15:19:06 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 15:22:27 [INFO] - root: Fetched last 15 logs.
+2025-11-22 15:22:27 [INFO] - uvicorn.access: 127.0.0.1:50498 - "GET /history?limit=15 HTTP/1.1" 200
+2025-11-22 15:24:24 [WARNING] - uvicorn.error: StatReload detected changes in 'app\run.py'. Reloading...
+2025-11-22 15:24:25 [INFO] - uvicorn.error: Shutting down
+2025-11-22 15:24:25 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 15:24:25 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 15:24:25 [INFO] - uvicorn.error: Finished server process [7004]
+2025-11-22 15:24:26 [INFO] - uvicorn.error: Started server process [18784]
+2025-11-22 15:24:26 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 15:24:26 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 15:25:50 [INFO] - uvicorn.error: Shutting down
+2025-11-22 15:25:50 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 15:25:50 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 15:25:50 [INFO] - uvicorn.error: Finished server process [18784]
+2025-11-22 15:25:50 [INFO] - uvicorn.error: Stopping reloader process [15936]
+2025-11-22 15:41:07 [INFO] - uvicorn.error: Will watch for changes in these directories: ['C:\\Users\\candidato\\Desktop\\dariocaberlotto\\ennova-bootcamp\\src\\student_prompt_logger']
+2025-11-22 15:41:07 [ERROR] - uvicorn.error: [WinError 10013] Tentativo di accesso al socket con modalità non consentite dalle rispettive autorizzazioni di accesso
+2025-11-22 15:42:19 [INFO] - uvicorn.error: Will watch for changes in these directories: ['C:\\Users\\candidato\\Desktop\\dariocaberlotto\\ennova-bootcamp\\src\\student_prompt_logger']
+2025-11-22 15:42:19 [INFO] - uvicorn.error: Uvicorn running on http://0.0.0.0:8081 (Press CTRL+C to quit)
+2025-11-22 15:42:19 [INFO] - uvicorn.error: Started reloader process [2004] using StatReload
+2025-11-22 15:42:19 [ERROR] - uvicorn.error: Error loading ASGI app. Could not import module "main".
+2025-11-22 15:42:36 [WARNING] - uvicorn.error: StatReload detected changes in 'run.py'. Reloading...
+2025-11-22 15:42:36 [ERROR] - uvicorn.error: Error loading ASGI app. Could not import module "main".
+2025-11-22 15:44:33 [INFO] - uvicorn.error: Will watch for changes in these directories: ['C:\\Users\\candidato\\Desktop\\dariocaberlotto\\ennova-bootcamp\\src\\student_prompt_logger']
+2025-11-22 15:44:33 [INFO] - uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-11-22 15:44:33 [INFO] - uvicorn.error: Started reloader process [10392] using StatReload
+2025-11-22 15:44:34 [INFO] - uvicorn.error: Started server process [19784]
+2025-11-22 15:44:34 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 15:44:34 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 15:44:50 [INFO] - uvicorn.access: 127.0.0.1:50956 - "GET / HTTP/1.1" 404
+2025-11-22 15:44:50 [INFO] - uvicorn.access: 127.0.0.1:50956 - "GET /favicon.ico HTTP/1.1" 404
+2025-11-22 15:45:55 [INFO] - uvicorn.error: Shutting down
+2025-11-22 15:45:55 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 15:45:55 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 15:45:55 [INFO] - uvicorn.error: Finished server process [19784]
+2025-11-22 15:45:55 [INFO] - uvicorn.error: Stopping reloader process [10392]
+2025-11-22 15:45:57 [INFO] - uvicorn.error: Will watch for changes in these directories: ['C:\\Users\\candidato\\Desktop\\dariocaberlotto\\ennova-bootcamp\\src\\student_prompt_logger']
+2025-11-22 15:45:57 [INFO] - uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-11-22 15:45:57 [INFO] - uvicorn.error: Started reloader process [12888] using StatReload
+2025-11-22 15:45:58 [INFO] - uvicorn.error: Started server process [280]
+2025-11-22 15:45:58 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 15:45:58 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 15:46:17 [WARNING] - uvicorn.error: StatReload detected changes in 'app\run.py'. Reloading...
+2025-11-22 15:46:17 [WARNING] - uvicorn.error: StatReload detected changes in 'app\run.py'. Reloading...
+2025-11-22 15:46:17 [INFO] - uvicorn.error: Shutting down
+2025-11-22 15:46:18 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 15:46:18 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 15:46:18 [INFO] - uvicorn.error: Finished server process [280]
+2025-11-22 15:46:19 [INFO] - uvicorn.error: Started server process [10520]
+2025-11-22 15:46:19 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 15:46:19 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 15:46:24 [INFO] - uvicorn.error: Shutting down
+2025-11-22 15:46:25 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 15:46:25 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 15:46:25 [INFO] - uvicorn.error: Finished server process [10520]
+2025-11-22 15:46:25 [INFO] - uvicorn.error: Stopping reloader process [12888]
+2025-11-22 15:46:26 [INFO] - uvicorn.error: Will watch for changes in these directories: ['C:\\Users\\candidato\\Desktop\\dariocaberlotto\\ennova-bootcamp\\src\\student_prompt_logger']
+2025-11-22 15:46:26 [INFO] - uvicorn.error: Uvicorn running on http://0.0.0.0:8081 (Press CTRL+C to quit)
+2025-11-22 15:46:26 [INFO] - uvicorn.error: Started reloader process [8360] using StatReload
+2025-11-22 15:46:27 [INFO] - uvicorn.error: Started server process [16984]
+2025-11-22 15:46:27 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 15:46:27 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 15:46:29 [INFO] - uvicorn.access: 127.0.0.1:51013 - "GET /docs HTTP/1.1" 200
+2025-11-22 15:46:30 [INFO] - uvicorn.access: 127.0.0.1:51013 - "GET /openapi.json HTTP/1.1" 200
+2025-11-22 15:46:42 [INFO] - root: Fetched last 5 logs.
+2025-11-22 15:46:42 [INFO] - uvicorn.access: 127.0.0.1:51014 - "GET /history?limit=5 HTTP/1.1" 200
+2025-11-22 15:47:08 [WARNING] - uvicorn.error: StatReload detected changes in 'app\run.py'. Reloading...
+2025-11-22 15:47:08 [INFO] - uvicorn.error: Shutting down
+2025-11-22 15:47:08 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 15:47:08 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 15:47:08 [INFO] - uvicorn.error: Finished server process [16984]
+2025-11-22 15:47:10 [INFO] - uvicorn.error: Started server process [3568]
+2025-11-22 15:47:10 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 15:47:10 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 15:47:10 [INFO] - uvicorn.error: Shutting down
+2025-11-22 15:47:10 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 15:47:10 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 15:47:10 [INFO] - uvicorn.error: Finished server process [3568]
+2025-11-22 15:47:11 [INFO] - uvicorn.error: Stopping reloader process [8360]
+2025-11-22 16:54:32 [INFO] - uvicorn.error: Will watch for changes in these directories: ['C:\\Users\\candidato\\Desktop\\dariocaberlotto\\ennova-bootcamp\\src\\student_prompt_logger']
+2025-11-22 16:54:32 [INFO] - uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-11-22 16:54:32 [INFO] - uvicorn.error: Started reloader process [3284] using StatReload
+2025-11-22 16:54:32 [INFO] - uvicorn.error: Started server process [5920]
+2025-11-22 16:54:32 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 16:54:32 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 16:56:13 [INFO] - uvicorn.access: 127.0.0.1:52201 - "GET /docs HTTP/1.1" 200
+2025-11-22 16:56:13 [INFO] - uvicorn.access: 127.0.0.1:52201 - "GET /openapi.json HTTP/1.1" 200
+2025-11-22 16:56:26 [INFO] - uvicorn.access: 127.0.0.1:52202 - "GET /history_response?limit=5&provider=gemini HTTP/1.1" 500
+2025-11-22 16:56:26 [ERROR] - uvicorn.error: Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\applications.py", line 1134, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 125, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 111, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 391, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 292, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\src\student_prompt_logger\app\main.py", line 110, in history_response
+    res = cur.execute(f"SELECT prompt, response, provider, model_info FROM responses ORDER BY id DESC WHERE provider = '{provider}' LIMIT {limit}")
+sqlite3.OperationalError: near "WHERE": syntax error
+2025-11-22 16:56:49 [WARNING] - uvicorn.error: StatReload detected changes in 'app\main.py'. Reloading...
+2025-11-22 16:56:49 [INFO] - uvicorn.error: Shutting down
+2025-11-22 16:56:49 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 16:56:49 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 16:56:49 [INFO] - uvicorn.error: Finished server process [5920]
+2025-11-22 16:56:50 [INFO] - uvicorn.error: Started server process [16120]
+2025-11-22 16:56:51 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 16:56:51 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 16:56:52 [INFO] - uvicorn.access: 127.0.0.1:52219 - "GET /docs HTTP/1.1" 200
+2025-11-22 16:56:52 [INFO] - uvicorn.access: 127.0.0.1:52219 - "GET /openapi.json HTTP/1.1" 200
+2025-11-22 16:57:04 [INFO] - uvicorn.access: 127.0.0.1:52220 - "GET /history_response?limit=5&provider=gemini HTTP/1.1" 500
+2025-11-22 16:57:04 [ERROR] - uvicorn.error: Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\applications.py", line 1134, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 125, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 111, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 391, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 292, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\src\student_prompt_logger\app\main.py", line 110, in history_response
+    res = cur.execute(f"SELECT prompt, response, provider, model_info FROM responses WHERE provider = '{provider}' ORDER BY id DESC LIMIT {limit}")
+sqlite3.OperationalError: no such column: id
+2025-11-22 16:59:23 [INFO] - uvicorn.access: 127.0.0.1:52252 - "GET /docs HTTP/1.1" 200
+2025-11-22 16:59:24 [INFO] - uvicorn.access: 127.0.0.1:52252 - "GET /openapi.json HTTP/1.1" 200
+2025-11-22 16:59:34 [INFO] - uvicorn.access: 127.0.0.1:52253 - "GET /history_response?limit=5&provider=gemini HTTP/1.1" 500
+2025-11-22 16:59:34 [ERROR] - uvicorn.error: Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\applications.py", line 1134, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 125, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 111, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 391, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 292, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\src\student_prompt_logger\app\main.py", line 110, in history_response
+    res = cur.execute(f"SELECT prompt, response, provider, model_info FROM responses WHERE provider = '{provider}' ORDER BY id DESC LIMIT {limit}")
+sqlite3.OperationalError: no such column: id
+2025-11-22 17:00:32 [INFO] - root: Creating GeminiLLM
+2025-11-22 17:00:34 [INFO] - google_genai.models: AFC is enabled with max remote calls: 10.
+2025-11-22 17:00:35 [INFO] - httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-11-22 17:00:35 [INFO] - uvicorn.access: 127.0.0.1:52273 - "POST /generate?prompt=Hi%2C%20how%20are%20you%3F&provider=gemini HTTP/1.1" 500
+2025-11-22 17:00:35 [ERROR] - uvicorn.error: Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\applications.py", line 1134, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 125, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 111, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 391, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 292, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\src\student_prompt_logger\app\main.py", line 70, in generate
+    save_history(prompt, response, provider)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\src\student_prompt_logger\app\main.py", line 51, in save_history
+    response.text,
+    ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'text'
+2025-11-22 17:10:46 [WARNING] - uvicorn.error: StatReload detected changes in 'app\models\schemas.py'. Reloading...
+2025-11-22 17:10:46 [INFO] - uvicorn.error: Shutting down
+2025-11-22 17:10:46 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 17:10:46 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 17:10:46 [INFO] - uvicorn.error: Finished server process [16120]
+2025-11-22 17:10:47 [INFO] - uvicorn.error: Started server process [10160]
+2025-11-22 17:10:47 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 17:10:47 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 17:16:01 [WARNING] - uvicorn.error: StatReload detected changes in 'app\services\llm.py'. Reloading...
+2025-11-22 17:16:01 [INFO] - uvicorn.error: Shutting down
+2025-11-22 17:16:01 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 17:16:01 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 17:16:01 [INFO] - uvicorn.error: Finished server process [10160]
+2025-11-22 17:16:03 [INFO] - uvicorn.error: Started server process [8156]
+2025-11-22 17:16:03 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 17:16:03 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 17:24:56 [WARNING] - uvicorn.error: StatReload detected changes in 'app\services\llm.py'. Reloading...
+2025-11-22 17:24:56 [INFO] - uvicorn.error: Shutting down
+2025-11-22 17:24:56 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 17:24:56 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 17:24:56 [INFO] - uvicorn.error: Finished server process [8156]
+2025-11-22 17:24:58 [INFO] - uvicorn.error: Started server process [4144]
+2025-11-22 17:24:58 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 17:24:58 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 17:26:20 [WARNING] - uvicorn.error: StatReload detected changes in 'app\main.py'. Reloading...
+2025-11-22 17:26:21 [INFO] - uvicorn.error: Shutting down
+2025-11-22 17:26:21 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 17:26:21 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 17:26:21 [INFO] - uvicorn.error: Finished server process [4144]
+2025-11-22 17:26:22 [INFO] - uvicorn.error: Started server process [11452]
+2025-11-22 17:26:22 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 17:26:22 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 17:26:35 [INFO] - uvicorn.error: Shutting down
+2025-11-22 17:26:35 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 17:26:35 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 17:26:36 [INFO] - uvicorn.error: Finished server process [11452]
+2025-11-22 17:26:36 [INFO] - uvicorn.error: Stopping reloader process [3284]
+2025-11-22 17:26:38 [INFO] - uvicorn.error: Will watch for changes in these directories: ['C:\\Users\\candidato\\Desktop\\dariocaberlotto\\ennova-bootcamp\\src\\student_prompt_logger']
+2025-11-22 17:26:38 [INFO] - uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-11-22 17:26:38 [INFO] - uvicorn.error: Started reloader process [12032] using StatReload
+2025-11-22 17:26:39 [INFO] - uvicorn.error: Started server process [20164]
+2025-11-22 17:26:39 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 17:26:39 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 17:26:56 [INFO] - uvicorn.access: 127.0.0.1:52754 - "GET /docs HTTP/1.1" 200
+2025-11-22 17:26:56 [INFO] - uvicorn.access: 127.0.0.1:52754 - "GET /openapi.json HTTP/1.1" 200
+2025-11-22 17:27:12 [INFO] - root: Creating GeminiLLM
+2025-11-22 17:27:13 [INFO] - google_genai.models: AFC is enabled with max remote calls: 10.
+2025-11-22 17:27:15 [INFO] - httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-11-22 17:27:15 [INFO] - uvicorn.access: 127.0.0.1:52755 - "POST /generate?prompt=Hi%2C%20how%20are%20you%3F&provider=gemini HTTP/1.1" 500
+2025-11-22 17:27:15 [ERROR] - uvicorn.error: Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\applications.py", line 1134, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 125, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 111, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 391, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 292, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\src\student_prompt_logger\app\main.py", line 71, in generate
+    save_history(prompt, response, provider)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\src\student_prompt_logger\app\main.py", line 47, in save_history
+    cur.execute('''
+    ~~~~~~~~~~~^^^^
+                INSERT INTO responses (prompt, response, provider, model_info)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                response.model_info
+                ^^^^^^^^^^^^^^^^^^^
+            ))
+            ^^
+sqlite3.OperationalError: 3 values for 4 columns
+2025-11-22 17:27:35 [WARNING] - uvicorn.error: StatReload detected changes in 'app\main.py'. Reloading...
+2025-11-22 17:27:35 [INFO] - uvicorn.error: Shutting down
+2025-11-22 17:27:35 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 17:27:35 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 17:27:35 [INFO] - uvicorn.error: Finished server process [20164]
+2025-11-22 17:27:37 [INFO] - uvicorn.error: Started server process [19308]
+2025-11-22 17:27:37 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 17:27:37 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 17:27:41 [INFO] - root: Creating GeminiLLM
+2025-11-22 17:27:43 [INFO] - google_genai.models: AFC is enabled with max remote calls: 10.
+2025-11-22 17:27:47 [INFO] - httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-11-22 17:27:47 [INFO] - root: Response from gemini (gemini-2.5-flash): Hello! I'm doing great, thanks for asking.
+
+How can I help you today?
+2025-11-22 17:27:52 [INFO] - uvicorn.access: 127.0.0.1:52770 - "POST /generate?prompt=Hi%2C%20how%20are%20you%3F&provider=gemini HTTP/1.1" 200
+2025-11-22 17:28:55 [WARNING] - uvicorn.error: StatReload detected changes in 'app\services\llm.py'. Reloading...
+2025-11-22 17:29:00 [INFO] - uvicorn.error: Shutting down
+2025-11-22 17:29:06 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 17:29:12 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 17:29:18 [INFO] - uvicorn.error: Finished server process [19308]
+2025-11-22 17:29:25 [INFO] - uvicorn.error: Started server process [15708]
+2025-11-22 17:29:25 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 17:29:25 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 17:29:25 [INFO] - uvicorn.access: 127.0.0.1:52817 - "GET /history_response?limit=1&provider=gemini HTTP/1.1" 500
+2025-11-22 17:29:25 [ERROR] - uvicorn.error: Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\applications.py", line 1134, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 125, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 111, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 391, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 292, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\src\student_prompt_logger\app\main.py", line 112, in history_response
+    res = cur.execute(f"SELECT prompt, response, provider, model_info FROM responses WHERE provider = '{provider}' ORDER BY id DESC LIMIT {limit}")
+sqlite3.OperationalError: no such column: id
+2025-11-22 17:31:01 [INFO] - uvicorn.access: 127.0.0.1:52845 - "GET /docs HTTP/1.1" 200
+2025-11-22 17:31:02 [INFO] - uvicorn.access: 127.0.0.1:52845 - "GET /openapi.json HTTP/1.1" 200
+2025-11-22 17:31:27 [INFO] - root: Creating OpenAILLM
+2025-11-22 17:31:32 [INFO] - httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 17:31:32 [INFO] - root: Response from openai (gpt-4o-mini): Hello! How can I assist you today?
+2025-11-22 17:31:32 [INFO] - uvicorn.access: 127.0.0.1:52846 - "POST /generate?prompt=Hi&provider=openai HTTP/1.1" 200
+2025-11-22 17:31:58 [INFO] - uvicorn.access: 127.0.0.1:52878 - "GET /history_response?limit=1&provider=openai HTTP/1.1" 500
+2025-11-22 17:31:58 [ERROR] - uvicorn.error: Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\applications.py", line 1134, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 125, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 111, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 391, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 292, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\src\student_prompt_logger\app\main.py", line 112, in history_response
+    res = cur.execute(f"SELECT prompt, response, provider, model_info FROM responses WHERE provider = '{provider}' ORDER BY id DESC LIMIT {limit}")
+sqlite3.OperationalError: no such column: id
+2025-11-22 17:34:35 [WARNING] - uvicorn.error: StatReload detected changes in 'app\sqlite_logger.py'. Reloading...
+2025-11-22 17:34:35 [INFO] - uvicorn.error: Shutting down
+2025-11-22 17:34:35 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 17:34:35 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 17:34:35 [INFO] - uvicorn.error: Finished server process [15708]
+2025-11-22 17:34:38 [INFO] - uvicorn.error: Started server process [18916]
+2025-11-22 17:34:38 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 17:34:38 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 17:34:44 [INFO] - uvicorn.error: Shutting down
+2025-11-22 17:34:44 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 17:34:44 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 17:34:44 [INFO] - uvicorn.error: Finished server process [18916]
+2025-11-22 17:34:44 [INFO] - uvicorn.error: Stopping reloader process [12032]
+2025-11-22 17:34:46 [INFO] - uvicorn.error: Will watch for changes in these directories: ['C:\\Users\\candidato\\Desktop\\dariocaberlotto\\ennova-bootcamp\\src\\student_prompt_logger']
+2025-11-22 17:34:46 [INFO] - uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-11-22 17:34:46 [INFO] - uvicorn.error: Started reloader process [11176] using StatReload
+2025-11-22 17:34:47 [INFO] - uvicorn.error: Started server process [1696]
+2025-11-22 17:34:47 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 17:34:47 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 17:34:55 [INFO] - root: Creating OpenAILLM
+2025-11-22 17:34:58 [INFO] - httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 17:34:58 [INFO] - root: Response from openai (gpt-4o-mini): Hello! How can I assist you today?
+2025-11-22 17:35:04 [INFO] - uvicorn.access: 127.0.0.1:52910 - "POST /generate?prompt=Hi&provider=openai HTTP/1.1" 200
+2025-11-22 17:38:41 [INFO] - uvicorn.access: 127.0.0.1:52960 - "GET /history_response?limit=1&provider=openai HTTP/1.1" 500
+2025-11-22 17:38:47 [ERROR] - uvicorn.error: Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\applications.py", line 1134, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 125, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 111, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 391, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 292, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\src\student_prompt_logger\app\main.py", line 112, in history_response
+    res = cur.execute(f"SELECT prompt, response, provider, model_info FROM responses WHERE provider = '{provider}' ORDER BY id DESC LIMIT {limit}")
+sqlite3.OperationalError: no such column: id
+2025-11-22 17:40:20 [WARNING] - uvicorn.error: StatReload detected changes in 'app\sqlite_logger.py'. Reloading...
+2025-11-22 17:40:26 [INFO] - uvicorn.error: Shutting down
+2025-11-22 17:40:31 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 17:40:37 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 17:40:42 [INFO] - uvicorn.error: Finished server process [1696]
+2025-11-22 17:40:49 [INFO] - uvicorn.error: Started server process [1364]
+2025-11-22 17:40:49 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 17:40:49 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 17:43:09 [WARNING] - uvicorn.error: StatReload detected changes in 'app\sqlite_logger.py'. Reloading...
+2025-11-22 17:43:09 [INFO] - uvicorn.error: Shutting down
+2025-11-22 17:43:10 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 17:43:10 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 17:43:10 [INFO] - uvicorn.error: Finished server process [1364]
+2025-11-22 17:43:11 [INFO] - uvicorn.error: Started server process [6016]
+2025-11-22 17:43:11 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 17:43:11 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 17:46:27 [WARNING] - uvicorn.error: StatReload detected changes in 'app\main.py'. Reloading...
+2025-11-22 17:46:27 [INFO] - uvicorn.error: Shutting down
+2025-11-22 17:46:27 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 17:46:27 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 17:46:28 [INFO] - uvicorn.error: Finished server process [6016]
+2025-11-22 17:46:29 [INFO] - uvicorn.error: Started server process [11300]
+2025-11-22 17:46:29 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 17:46:29 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 17:46:35 [INFO] - uvicorn.error: Shutting down
+2025-11-22 17:46:35 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 17:46:35 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 17:46:35 [INFO] - uvicorn.error: Finished server process [11300]
+2025-11-22 17:46:35 [INFO] - uvicorn.error: Stopping reloader process [11176]
+2025-11-22 17:46:36 [INFO] - uvicorn.error: Will watch for changes in these directories: ['C:\\Users\\candidato\\Desktop\\dariocaberlotto\\ennova-bootcamp\\src\\student_prompt_logger']
+2025-11-22 17:46:36 [INFO] - uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-11-22 17:46:36 [INFO] - uvicorn.error: Started reloader process [1336] using StatReload
+2025-11-22 17:46:37 [INFO] - uvicorn.error: Started server process [8800]
+2025-11-22 17:46:37 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 17:46:37 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 17:47:12 [WARNING] - uvicorn.error: StatReload detected changes in 'app\sqlite_logger.py'. Reloading...
+2025-11-22 17:47:12 [INFO] - uvicorn.error: Shutting down
+2025-11-22 17:47:12 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 17:47:12 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 17:47:12 [INFO] - uvicorn.error: Finished server process [8800]
+2025-11-22 17:47:14 [INFO] - uvicorn.error: Started server process [15288]
+2025-11-22 17:47:14 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 17:47:14 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 17:47:21 [INFO] - uvicorn.error: Shutting down
+2025-11-22 17:47:21 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 17:47:21 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 17:47:21 [INFO] - uvicorn.error: Finished server process [15288]
+2025-11-22 17:47:21 [INFO] - uvicorn.error: Stopping reloader process [1336]
+2025-11-22 17:47:23 [INFO] - uvicorn.error: Will watch for changes in these directories: ['C:\\Users\\candidato\\Desktop\\dariocaberlotto\\ennova-bootcamp\\src\\student_prompt_logger']
+2025-11-22 17:47:23 [INFO] - uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-11-22 17:47:23 [INFO] - uvicorn.error: Started reloader process [16676] using StatReload
+2025-11-22 17:47:24 [INFO] - uvicorn.error: Started server process [19776]
+2025-11-22 17:47:24 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 17:47:24 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 17:47:28 [INFO] - uvicorn.access: 127.0.0.1:53114 - "GET /docs HTTP/1.1" 200
+2025-11-22 17:47:29 [INFO] - uvicorn.access: 127.0.0.1:53114 - "GET /openapi.json HTTP/1.1" 200
+2025-11-22 17:47:40 [INFO] - root: Creating OpenAILLM
+2025-11-22 17:47:42 [INFO] - httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 17:47:42 [INFO] - uvicorn.access: 127.0.0.1:53117 - "POST /generate?prompt=hi&provider=openai HTTP/1.1" 500
+2025-11-22 17:47:42 [ERROR] - uvicorn.error: Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\applications.py", line 1134, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 125, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 111, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 391, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 292, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\src\student_prompt_logger\app\main.py", line 78, in generate
+    save_history(prompt, response, provider)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\src\student_prompt_logger\app\main.py", line 46, in save_history
+    cur.execute('''CREATE TABLE IF NOT EXISTS responses("
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        id INTEGER PRIMARY KEY AUTOINCREMENT,
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                    )
+                    ^
+                ''')
+                ^^^^
+sqlite3.OperationalError: unrecognized token: ""
+                            id INTEGER PRIMARY KEY AUTOINCREMENT,
+                            prompt TEXT,
+                            response TEXT,
+                            provider TEXT,
+                            model_info TEXT
+                        )
+                    "
+2025-11-22 17:49:11 [WARNING] - uvicorn.error: StatReload detected changes in 'app\main.py'. Reloading...
+2025-11-22 17:49:11 [INFO] - uvicorn.error: Shutting down
+2025-11-22 17:49:11 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 17:49:12 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 17:49:12 [INFO] - uvicorn.error: Finished server process [19776]
+2025-11-22 17:49:13 [WARNING] - uvicorn.error: StatReload detected changes in 'app\sqlite_logger.py'. Reloading...
+2025-11-22 17:49:14 [INFO] - uvicorn.error: Started server process [9552]
+2025-11-22 17:49:14 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 17:49:14 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 17:49:14 [ERROR] - uvicorn.error: Traceback (most recent call last):
+  File "C:\Users\candidato\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\candidato\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\candidato\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\candidato\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 132, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\queues.py", line 186, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2025-11-22 17:49:15 [INFO] - uvicorn.error: Started server process [244]
+2025-11-22 17:49:15 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 17:49:15 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 17:49:26 [INFO] - root: Creating OpenAILLM
+2025-11-22 17:49:29 [INFO] - httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 17:49:29 [INFO] - root: Response from openai (gpt-4o-mini): Hello! How can I assist you today?
+2025-11-22 17:49:35 [INFO] - uvicorn.access: 127.0.0.1:53149 - "POST /generate?prompt=hi&provider=openai HTTP/1.1" 200
+2025-11-22 17:49:53 [INFO] - uvicorn.access: 127.0.0.1:53150 - "GET /history_response?limit=1&provider=openai HTTP/1.1" 500
+2025-11-22 17:49:58 [ERROR] - uvicorn.error: Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\applications.py", line 1134, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 125, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 111, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 391, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 292, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\src\student_prompt_logger\app\main.py", line 133, in history_response
+    res = cur.execute(f'''SELECT prompt, response, provider, model_info
+                      FROM responses
+    ...<2 lines>...
+                      LIMIT {limit}
+                      ''')
+sqlite3.OperationalError: no such column: openai
+2025-11-22 17:50:32 [WARNING] - uvicorn.error: StatReload detected changes in 'app\main.py'. Reloading...
+2025-11-22 17:50:36 [INFO] - uvicorn.access: 127.0.0.1:53172 - "GET /history_response?limit=1&provider=openai HTTP/1.1" 500
+2025-11-22 17:50:41 [ERROR] - uvicorn.error: Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\applications.py", line 1134, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 125, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 111, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 391, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 292, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\src\student_prompt_logger\app\main.py", line 133, in history_response
+    res = cur.execute(f'''SELECT prompt, response, provider, model_info
+                      FROM responses
+    ...<2 lines>...
+                      LIMIT {limit}
+                      ''')
+sqlite3.OperationalError: no such column: openai
+2025-11-22 17:50:47 [INFO] - uvicorn.error: Shutting down
+2025-11-22 17:50:52 [INFO] - uvicorn.access: 127.0.0.1:53173 - "GET /docs HTTP/1.1" 200
+2025-11-22 17:50:58 [INFO] - uvicorn.error: Waiting for connections to close. (CTRL+C to force quit)
+2025-11-22 17:51:04 [INFO] - uvicorn.access: 127.0.0.1:53173 - "GET /openapi.json HTTP/1.1" 200
+2025-11-22 17:51:14 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 17:51:20 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 17:51:26 [INFO] - uvicorn.error: Finished server process [244]
+2025-11-22 17:51:34 [INFO] - uvicorn.error: Started server process [14288]
+2025-11-22 17:51:34 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 17:51:34 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 17:51:34 [INFO] - uvicorn.access: 127.0.0.1:53186 - "GET /history_response?limit=5&provider=openai HTTP/1.1" 500
+2025-11-22 17:51:34 [ERROR] - uvicorn.error: Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\applications.py", line 1134, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 125, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 111, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 391, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\fastapi\routing.py", line 292, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\bootcamp\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\candidato\Desktop\dariocaberlotto\ennova-bootcamp\src\student_prompt_logger\app\main.py", line 133, in history_response
+    res = cur.execute(f'''SELECT prompt, response, provider, model_info
+                      FROM responses
+    ...<2 lines>...
+                      LIMIT {limit}
+                      ''')
+sqlite3.OperationalError: no such column: id
+2025-11-22 17:52:48 [WARNING] - uvicorn.error: StatReload detected changes in 'app\sqlite_logger.py'. Reloading...
+2025-11-22 17:52:49 [INFO] - uvicorn.error: Shutting down
+2025-11-22 17:52:49 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 17:52:49 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 17:52:49 [INFO] - uvicorn.error: Finished server process [14288]
+2025-11-22 17:52:50 [INFO] - uvicorn.error: Started server process [14236]
+2025-11-22 17:52:50 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 17:52:50 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 17:57:39 [WARNING] - uvicorn.error: StatReload detected changes in 'app\sqlite_logger.py'. Reloading...
+2025-11-22 17:57:39 [INFO] - uvicorn.error: Shutting down
+2025-11-22 17:57:40 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 17:57:40 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 17:57:40 [INFO] - uvicorn.error: Finished server process [14236]
+2025-11-22 17:57:41 [INFO] - uvicorn.error: Started server process [11780]
+2025-11-22 17:57:41 [INFO] - uvicorn.error: Waiting for application startup.
+2025-11-22 17:57:41 [INFO] - uvicorn.error: Application startup complete.
+2025-11-22 17:57:54 [INFO] - uvicorn.error: Shutting down
+2025-11-22 17:57:54 [INFO] - uvicorn.error: Waiting for application shutdown.
+2025-11-22 17:57:54 [INFO] - uvicorn.error: Application shutdown complete.
+2025-11-22 17:57:54 [INFO] - uvicorn.error: Finished server process [11780]
+2025-11-22 17:57:54 [INFO] - uvicorn.error: Stopping reloader process [16676]
+2025-11-22 17:57:56 [INFO] - uvicorn.error: Will watch for changes in these directories: ['C:\\Users\\candidato\\Desktop\\dariocaberlotto\\ennova-bootcamp\\src\\student_prompt_logger']
+2025-11-22 17:57:56 [INFO] - uvicorn.error: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-11-22 17:57:56 [INFO] - uvicorn.error: Started reloader process [20432] using StatReload
+2025-11-22 17:57:57 [INFO] - uvicorn.error: Started server process [19936]
