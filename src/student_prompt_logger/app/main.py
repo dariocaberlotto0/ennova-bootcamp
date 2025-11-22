@@ -32,6 +32,34 @@ app = FastAPI()
 app.add_exception_handler(Exception, http_error_handler)
 log_file = "service.log"
 
+from models.schemas import LLMResponse
+
+def save_history(prompt: str, response: LLMResponse, provider: str):
+    if not DB_PATH:
+        logging.error("No database found.")
+    else:
+        import sqlite3
+        # Connects to db
+        con = sqlite3.connect(DB_PATH)
+        cur = con.cursor()
+        # Create the table if not exist
+        cur.execute('''CREATE TABLE IF NOT EXISTS responses(
+                            id INTEGER PRIMARY KEY AUTOINCREMENT,
+                            prompt TEXT,
+                            response TEXT,
+                            provider TEXT,
+                            model_info TEXT
+                        )
+                    ''')
+        cur.execute('''
+                    INSERT INTO responses(prompt, response, provider, model_info)
+                    VALUES (?, ?, ?, ?)
+                ''', (
+                    prompt, 
+                    response.text,
+                    provider, 
+                    response.model_info
+                ))
 
 @app.get('/health')
 def health():
@@ -46,9 +74,12 @@ def generate(
     from services.client_factory import ClientFactory
     client = ClientFactory.create_client(provider)
 
-    return client.generate(prompt)
+    response = client.generate(prompt)
+    save_history(prompt, response, provider)
+    logging.info(f"Response from {provider} ({response.model_info}): {response.text}")
+    return response
 
-# Returns the last 10 logs
+# Returns the last $limit logs
 @app.get('/history')
 def history(
     limit: int
@@ -62,13 +93,54 @@ def history(
         con = sqlite3.connect(DB_PATH)
         cur = con.cursor()
         # Create the table if not exist
-        cur.execute("CREATE TABLE IF NOT EXISTS logs(timestamp, level, logger_name, message)")
+        cur.execute('''CREATE TABLE IF NOT EXISTS logs(
+                            id INTEGER PRIMARY KEY AUTOINCREMENT,
+                            timestamp TEXT,
+                            level TEXT,
+                            logger_name TEXT,
+                            message TEXT
+                        )
+                    ''')
         logs = cur.execute(f"SELECT timestamp, level, logger_name, message FROM logs ORDER BY id DESC LIMIT {limit}")
         lines = logs.fetchall()
         logging.info(f"Fetched last {limit} logs.")
 
     return lines
     
+# Returns the last $limit responses of $provider provider
+@app.get('/history_response')
+def history_response(
+    limit: int,
+    provider: str
+):
+    responses = []
+    if not DB_PATH:
+        logging.error("No database found.")
+    else:
+        import sqlite3
+        # Connects to db
+        con = sqlite3.connect(DB_PATH)
+        cur = con.cursor()
+        # Create the table if not exist
+        cur.execute('''CREATE TABLE IF NOT EXISTS responses(
+                            id INTEGER PRIMARY KEY AUTOINCREMENT,
+                            prompt TEXT,
+                            response TEXT,
+                            provider TEXT,
+                            model_info TEXT
+                        )
+                    ''')
+        res = cur.execute(f'''SELECT prompt, response, provider, model_info 
+                          FROM responses 
+                          WHERE provider = '{provider}'
+                          ORDER BY id DESC 
+                          LIMIT {limit}
+                          ''')
+        responses = res.fetchall()
+        logging.info(f"Fetched last {limit} responses of {provider}.")
+
+    return responses
+
 
 # Returns the env variables
 @app.get('/config')
